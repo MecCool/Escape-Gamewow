@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jardin</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Jardin du chateau</h1>
+
+    <img src="Jardinjpg.jpg" width="800px"  usemap="#carte_salle1">
+
+    <map name="carte_salle1" >
+      <area shape="rect" coords="300,122,282,278" href="indice1.html" target="cadre_indices"/>
+      <area shape="rect" coords="500,240,580,300" href="solution.html">
+    </map>
+
+    <iframe name="cadre_indices"></iframe>
+
+  </body>
+</html>

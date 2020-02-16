@@ -1,0 +1,9 @@
+image.css
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}

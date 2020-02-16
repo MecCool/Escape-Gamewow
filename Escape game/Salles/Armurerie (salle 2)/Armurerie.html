@@ -1,0 +1,37 @@
+<html>
+<body style="background-color:grey;">
+</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Armurerie</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Armurerie</h1>
+
+    <img src="Armurerie.png" width="800px"  usemap="#carte_salle1">
+
+    <map name="carte_salle1" >
+      <area shape="rect" coords="670,1,770,69" href="../Hall principal/Hall.html" >
+      
+    </map>
+    
+      
+    </audio>
+    <script>
+      function play(element){
+         var audio = document.getElementById(element);
+         audio.play();
+                   }
+      </script>
+      
+      <input type="button" value="Interrogez le tatou ?"  onclick="play('audio1')">
+      <audio id="audio1" src="Rammus.m4a" ></audio>
+      
+      <input type="button" value="C'est toi le voleur ?"  onclick="play('audio2')">
+      <audio id="audio2" src="Rammus réponse.m4a" ></audio>
+      
+
+  </body>
+</html>
